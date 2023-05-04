@@ -1,0 +1,20 @@
+# used to sort elements in list
+# default ascending 
+
+
+
+
+# list.sort() directly changes the order of list
+a1 = [10, 3,9,6]
+a2 = a1.sort()
+print('a1 : ', a1) # a1 : [3,6,9,10]
+print('a2 : ', a2) # a2 : None
+
+
+
+# sorted(list) creates new list 
+b1 = [45, 20, 89, 67]
+b2 = sorted(b1)
+
+print('b1 : ', b1) # b1 : [45, 20, 89, 67]
+print('b2 : ', b2) # b2 : [20, 45, 67, 89]
